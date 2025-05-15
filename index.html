@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maksym Khomiak — Unity Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVIGATION -->
+  <header class="header">
+    <div class="logo">M.Khomyak</div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO WITH BACKGROUND VIDEO -->
+  <section id="home" class="hero">
+    <video class="hero__video" autoplay muted loop playsinline>
+      <source src="videos/background.mp4" type="video/mp4">
+    </video>
+    <div class="hero__content">
+      <h1>Hello! I’m Maksym — Unity Developer</h1>
+      <p>I build mobile &amp; PC games. Expert in URP/HDRP, Photon, Zenject.</p>
+      <a href="projects.html" class="button">View Projects</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Unity developer with 1.5+ years of experience. Worked at AlphaNova, QPLAZE, Soulma, GoITeens.</p>
+    <ul>
+      <li>C#: .NET, OOP, Design Patterns</li>
+      <li>Unity: URP, HDRP, UI, Timeline, Shader Graph</li>
+      <li>Multiplayer: Photon PUN2 &amp; Quantum</li>
+      <li>Backend: PlayFab, Firebase Realtime DB</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="projects__list">
+      <!-- repeat these blocks or generate dynamically per page -->
+      <div class="project">
+        <img src="images/featured_image5d35a4e621070.png" alt="Puzzle Collection">
+        <div class="project__title">Puzzle Collection</div>
+      </div>
+      <div class="project">
+        <img src="images/gold.jpeg" alt="Golden Rush Slots">
+        <div class="project__title">Golden Rush Slots</div>
+      </div>
+      <!-- …other projects… -->
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Custom Unity Game Development</li>
+      <li>Optimization &amp; Profiling</li>
+      <li>Consulting &amp; Training (C# / Unity)</li>
+    </ul>
+  </section>
+
+  <!-- GALLERY (IMAGES + EMBEDDED VIDEO) -->
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery__grid">
+      <img src="images/plainko.jpg" alt="Plinko Demo">
+      <img src="images/wow.jpeg" alt="Word Escape Demo">
+      <iframe
+        src="https://www.youtube.com/embed/VIDEO_ID"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section id="contacts" class="contacts">
+    <h2>Contact Me</h2>
+    <form action="#" class="contact-form">
+      <label>
+        Your Name
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        Your Email
+        <input type="email" name="email" required>
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="4" required></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
+    <ul class="contact-links">
+      <li>Email: <a href="mailto:maksymkhomiakdev@gmail.com">maksymkhomiakdev@gmail.com</a></li>
+      <li>GitHub: <a href="https://github.com/Diper01">github.com/Diper01</a></li>
+      <li>LinkedIn: <a href="https://linkedin.com/in/maks-khomiak">linkedin.com/in/maks-khomiak</a></li>
+      <li>Telegram: <a href="https://t.me/in_a_human_suit">t.me/in_a_human_suit</a></li>
+    </ul>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Maksym Khomiak</p>
+  </footer>
+
+</body>
+</html>
